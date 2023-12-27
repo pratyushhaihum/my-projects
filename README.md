@@ -1,4 +1,4 @@
-- 👋 Hi, I’m @pratyushhaihum
+- 👋 Hi, I’m @pratyush
 - 👀 I’m interested in developing my coding skills in java.
 - 🌱 I’m currently learning java.
 - 💞️ I’m looking to collaborate on github.
