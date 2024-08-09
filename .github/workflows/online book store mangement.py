@@ -43,12 +43,12 @@ class BookStore:
             print("No books available.")
             return
         for book in self.books:
-            print(f"Title: {book.title}, Author: {book.author}, Price: {book.price}, Stock: {book.stock}")
+            print("Title: {book.title}, Author: {book.author}, Price: {book.price}, Stock: {book.stock}")
 
     def search_book(self, title):
         for book in self.books:
             if book.title.lower() == title.lower():
-                print(f"Found: Title: {book.title}, Author: {book.author}, Price: {book.price}, Stock: {book.stock}")
+                print("Found: Title: {book.title}, Author: {book.author}, Price: {book.price}, Stock: {book.stock}")
                 return book
         print("Book not found.")
         return None
