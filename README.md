@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @pratyush
-- 👀 I’m interested in developing my coding skills in java and python.
-- 🌱 I’m currently learning java.
+- 👀 I’m interested in data science and it's further development.
+- 🌱 I’m currently learning machine learning and predictive analysis.
 - 💞️ I’m looking to collaborate on github.
 - 📫 How to reach me:- pratyushstkss@gmail.com
 
