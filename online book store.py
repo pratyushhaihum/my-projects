@@ -70,30 +70,30 @@ def main():
         print("\n1. Register\n2. Login\n3. Add Book\n4. Display Books\n5. Search Book\n6. Purchase Book\n7. Exit")
         choice = input("Enter your choice: ")
 
-        if choice == '1':
+        if choice == 1:
             username = input("Enter username: ")
             password = input("Enter password: ")
             user_manager.register(username, password)
-        elif choice == '2':
+        elif choice == 2:
             username = input("Enter username: ")
             password = input("Enter password: ")
             if user_manager.login(username, password):
                 print("Welcome!")
-        elif choice == '3':
+        elif choice == 3:
             title = input("Enter book title: ")
             author = input("Enter book author: ")
             price = float(input("Enter book price: "))
             stock = int(input("Enter book stock: "))
             bookstore.add_book(title, author, price, stock)
-        elif choice == '4':
+        elif choice == 4:
             bookstore.display_books()
-        elif choice == '5':
+        elif choice == 5:
             title = input("Enter book title to search: ")
             bookstore.search_book(title)
-        elif choice == '6':
+        elif choice == 6:
             title = input("Enter book title to purchase: ")
             bookstore.purchase_book(title)
-        elif choice == '7':
+        elif choice == 7:
             break
         else:
             print("Invalid choice. Please try again.")
